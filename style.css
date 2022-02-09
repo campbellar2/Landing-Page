@@ -16,6 +16,10 @@ a {
     padding-left: 16px;
 }
 
+button {
+    font-family: Roboto, sans-serif;
+}
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -55,23 +59,19 @@ h2 {
     margin-bottom: 8px;
 }
 
-button {
+.top button {
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 8px;
-    padding: 8px 20px;
+    padding: 6px 30px;
     font-weight: bold;
     border: 0px;
-}
-
-.top button {
-    color: #f9faf8;
 }
 
 .top .container {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 500px;
     justify-content: center;
     align-items: flex-start;
     padding: 32px 32px;
@@ -112,10 +112,70 @@ h3 {
 
 .column p {
     text-align: center;
+    margin-top: 8px;
+    color: #1f2937;
 }
 
 .quote {
-    
+    background-color: #E5E7EB;
+    padding: 80px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p {
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.quote h4 {
+    font-size: 24px;
+    align-self: center;
+    padding-left: 500px;
+}
+
+.quote p,
+.quote h4, 
+.bottom p, 
+.bottom h4 {
+    margin: 0 0;
+}
+
+.bottom {
+    background-color: #ffffff;
+    padding: 75px 150px;
+}
+
+.bottom .container {
+    background-color: #3882f6;
+    padding: 40px 80px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.small-container h4 {
+    color: #f9faf8;
+    font-size: 20px;
+}
+
+.small-container p {
+    color: #E5E7EB;
+}
+
+.bottom button {
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    padding: 6px 30px;
+    font-weight: bold;
 }
 
 .footer {
