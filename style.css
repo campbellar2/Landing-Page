@@ -187,3 +187,7 @@ h3 {
     font-size: 12px;
     padding: 16px 16px;
 }
+
+button:hover {
+    background-color: #649ffc;
+}
